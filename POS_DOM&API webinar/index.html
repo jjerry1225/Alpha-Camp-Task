@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - [Foundation 2-2] DOM/API webinar (打造 POS 機 2.0) - initial</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!--  HTＭL結構 -->
+<div class="container">
+  <h3>AC咖啡 點餐機</h3>
+  <!-- 1.菜單區塊（套用 bootstrap Grid 跟卡片、監聽器綁在這）-->
+  <!--  用 Boostrap Grid 結構製作出卡片  -->
+  <div id="menu" class="row"></div>
+
+  <!-- 2.顯示目前購物車清單（套用bootstrap list group） -->
+  <h4 class="my-3">購物車清單</h4>
+  <div class="col-6">
+    <ul id="cart" class="list-group">
+    </ul>
+  </div>
+  <h5 class="my-3">總金額：<span id="total-amount">--</span></h5>
+  <button id="submit-button" type="button" class="btn btn-primary">送出訂單</button>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'></script>
+<script src='https://unpkg.com/axios/dist/axios.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
