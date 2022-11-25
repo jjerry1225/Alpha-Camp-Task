@@ -1,0 +1,57 @@
+body {
+  background-image: url("https://pic.ntimg.cn/20110317/4398341_100346341158_2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin: 20px 0 5px 0;
+  color: #26ffff;
+  font-size: 4rem;
+  text-shadow: 5px 5px 15px black;
+}
+
+.number {
+  display: block;
+  z-index: 100;
+  position: absolute;
+  top: 20%;
+  margin: 0;
+  color: #26ffff;
+  font-size: 3rem;
+  text-shadow: 5px 5px 10px black;
+}
+
+.cat-img {
+  position: absolute;
+  bottom: 0;
+  cursor: pointer;
+  width: 350px;
+}
+
+/*當數字點到10的倍數時，預計出現的文字*/
+.mouse {
+  position: absolute;
+  bottom: 10%;
+  z-index: 100;
+  color: #ff2626;
+  font-size: 4rem;
+  text-shadow: 5px 5px 10px black;
+}
+
+/*當數字點到10的倍數時，數字的格式變化成下面*/
+.pop {
+  position: absolute;
+  top: 16%;
+  font-size: 5rem;
+  color: #ff2626;
+  margin: 20px;
+}
